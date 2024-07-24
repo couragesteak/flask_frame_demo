@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  blog:
+    build: .                # 自己构建
+    ports:
+      - "8081:80"
+    depends_on:
+      - redis
+  redis:
+    image: "redis:alpine"

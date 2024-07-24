@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登錄</title>
+</head>
+<body>
+<div>
+
+    <div>
+        <a href="/">首頁</a>
+        <a href="/login">登錄</a>
+        <a href="/param_test">參數測試</a>
+    </div>
+
+
+    <div>
+        <span>賬號</span>
+        <input id="username" type="text" placeholder="請輸入賬號">
+    </div>
+    <div>
+        <span>密碼</span>
+        <input id="password" type="text" placeholder="請輸入密碼">
+    </div>
+    <img src="/vcode" alt="" onclick="this.src='/vcode?'+Math.random()">
+</div>
+
+</body>
+</html>

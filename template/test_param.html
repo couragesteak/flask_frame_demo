@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>參數測試</title>
+</head>
+<body>
+<div>
+    <div>
+        <a href="/">首頁</a>
+        <a href="/login">登錄</a>
+        <a href="/param_test">參數測試</a>
+        <a href="/logout">退出登錄</a>
+    </div>
+
+    <a href="{{data.url}}">{{data.nickname}}</a>
+    <a href="/param_test?id=1">GET參數測試</a>
+
+    <div>ID爲：{{ data.id }}</div>
+
+</div>
+</body>
+</html>
